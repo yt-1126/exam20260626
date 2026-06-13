@@ -1,0 +1,37 @@
+.card-img-top{
+    height:180px;
+    object-fit:cover;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+    box-shadow: 0 8px 20px rgba(0,0,0,.2);
+}
+
+.card {
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .btn {
+    width: 40%;
+    margin-top: auto;
+    align-self: center
+}
+
+/* 實現中文字左右兩端完美對齊 */
+.card-text {
+    color:#4f5050;
+    text-align: justify;
+    text-justify: inter-ideograph; /* 專為中文字元優化的對齊算法 */
+    text-align-last: left;        /* 關鍵：確保最後一行靠左，不會被強行拉散 */
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 0.05em;
+    word-break: break-all;
+    font-feature-settings: "palt" 1;
+}
