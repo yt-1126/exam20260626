@@ -24,12 +24,18 @@
     align-self: center
 }
 
-/* 實現中文字左右兩端完美對齊 */
+.card-title{
+        text-align: justify;
+        text-align-last: center;
+        letter-spacing: 0.05em;
+        word-break: break-all;
+}
+
 .card-text {
     color:#4f5050;
     text-align: justify;
-    text-justify: inter-ideograph; /* 專為中文字元優化的對齊算法 */
-    text-align-last: left;        /* 關鍵：確保最後一行靠左，不會被強行拉散 */
+    text-justify: inter-ideograph;
+    text-align-last: left;
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 0.05em;
     word-break: break-all;
