@@ -10926,15 +10926,23 @@ hr.divider-light {
   }
 }
 
-header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+body, html {
+  background-color: #887669;
   background-size: cover;
+  margin: 0;
+  padding: 0;
 }
+
+header.masthead {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  box-sizing: border-box;
+
+
+}
+
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
 }
