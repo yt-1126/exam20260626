@@ -41,3 +41,10 @@
     word-break: break-all;
     font-feature-settings: "palt" 1;
 }
+
+/* 畫面的最底層保險：把整個網頁底色改成咖啡色，徹底消滅白色 */
+body, html {
+    background-color: #887669;
+    margin: 0;
+    padding: 0;
+}
