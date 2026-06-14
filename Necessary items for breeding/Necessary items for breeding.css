@@ -1,0 +1,29 @@
+.object-fit-cover {
+    object-fit: cover;
+}
+
+/* 2. 核心：文字等寬與置中魔法 */
+.custom-justify {
+    text-align: justify;
+    text-justify: inter-ideograph;
+    word-break: break-all;
+    line-break: strict;
+    font-feature-settings: "palt" 1;
+    text-align-last: center; /* 2排以上左右等寬，1排文字完美置中 */
+}
+
+/* 3. 客製化質感橘紅按鈕 */
+.btn-custom {
+    background-color: #ff5722;
+    border-color: #ff5722;
+    color: #ffffff;
+    font-size: 0.875rem; /* 微調按鈕字體大小 */
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-custom:hover {
+    background-color: #e64a19;
+    border-color: #e64a19;
+    color: #ffffff;
+    transform: translateY(-1px); /* 懸停時微微浮起，增加互動感 */
+}
