@@ -10926,30 +10926,15 @@ hr.divider-light {
   }
 }
 
-body, html {
-  background-color: #887669;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-}
-
 header.masthead {
-  width: 100%;
-  min-height: 100vh;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  box-sizing: border-box;
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background-color: rgb(136, 118, 105);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
-
-.custom-justify {
-  text-align: justify;
-  text-justify: inter-ideograph;
-  word-break: break-all;
-  line-break: strict;
-  font-feature-settings: "palt" 1;
-  text-align-last: center;
-}
-
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
 }
