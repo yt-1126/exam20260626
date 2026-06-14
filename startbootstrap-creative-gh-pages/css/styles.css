@@ -10939,8 +10939,15 @@ header.masthead {
   padding-top: 6rem;
   padding-bottom: 6rem;
   box-sizing: border-box;
+}
 
-
+.custom-justify {
+  text-align: justify;
+  text-justify: inter-ideograph;
+  word-break: break-all;
+  line-break: strict;
+  font-feature-settings: "palt" 1;
+  text-align-last: center;
 }
 
 header.masthead h1, header.masthead .h1 {
