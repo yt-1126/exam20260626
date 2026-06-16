@@ -1,0 +1,16 @@
+.custom-justify {
+    text-align: justify;
+    text-justify: inter-ideograph;
+    word-break: break-all;
+    line-break: strict;
+    font-feature-settings: "palt" 1;
+    text-align-last: left;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.backdrop-blur {
+    backdrop-filter: blur(5px);
+}
