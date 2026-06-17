@@ -1,0 +1,137 @@
+.breed-section {
+    background: #f7f7f7;
+    padding: 100px 0;
+}
+
+.breed-hero {
+    margin-bottom: 120px;
+}
+
+.breed-tag {
+    display: inline-block;
+    background: #ff6b35;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.breed-hero h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 25px 0;
+}
+
+.breed-hero p {
+    color: #666;
+    font-size: 1.2rem;
+}
+
+.breed-item {
+    padding: 20px 0;
+}
+
+.breed-item img {
+    width: 48%;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+.section-number {
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    display: inline-block;
+    background: #222;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 50px;
+    margin-bottom: 25px;
+}
+
+.breed-item h2 {
+    margin-top: -20px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.breed-item p {
+    margin-top: -20px;
+    text-align: center;
+    line-height: 2;
+    color: #666;
+}
+
+.breed-stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top:20px;
+    margin-bottom:40px;
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .08);
+}
+
+.stat-item .icon {
+    font-size: 1.2rem;
+}
+
+.stat-item h5 {
+    margin: 0;
+    font-weight: 700;
+}
+
+.stat-item p {
+    margin: 0;
+    color: #666;
+}
+
+.feature-list {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 2.2;
+    font-size: 1.1rem;
+    list-style: disc;
+}
+
+.breed-ending {
+    max-width: 750px;
+    margin: 60px auto 0;
+    text-align: center;
+    background: white;
+    padding: 80px;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+}
+
+.breed-ending h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.breed-ending p {
+    margin-top: 20px;
+    color: #666;
+    font-size: 1.2rem;
+}
+
+.breed-item .col-lg-8 {
+    text-align: center;
+    margin-top: 10px;
+}
